@@ -1,0 +1,84 @@
+@import "../../variables.modules";
+
+.margin{
+        margin-bottom: 1.2rem;
+}
+
+.label{
+        font-weight: bold;
+}
+
+strong{
+        color: black;
+        text-decoration: underline;
+        @media only screen and (min-width: 940px) {
+                font-size: 15px;
+        }
+        
+}
+
+
+
+.modal{
+        border-radius: 1rem;
+        border-color: none;
+        width: 80%;
+        padding: 1rem !important;
+        @media only screen and (min-width: 940px) {
+                width: 800px;
+                padding: 2rem !important;
+        }
+}
+
+.modal-dark{
+        background-color: black !important;
+        color: white;
+}
+
+.modal-light{
+        background-color: white;
+        color: black;
+}
+
+.button{
+        margin-top: 2rem;
+        color: black !important;
+        border-color:black !important;
+        font-size: 1.1vh !important;
+}
+
+.button:hover{
+        color : rgb(178, 128, 235) !important;
+        border-color:rgb(178, 128, 235) !important;
+        font-size: 1.1vh !important;
+}
+
+.closeButton{
+        margin-top: 2rem !important;
+        font-size: 1.1vh !important;
+        background: -webkit-linear-gradient(135deg, rgb(44, 130, 205), rgb(185, 108, 230));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: transform 0.3s ease-in-out;
+        @media only screen and (min-width: 940px) {
+                font-size: 1.5vh !important;
+        }
+        
+}
+
+.closeButton:hover{
+        transform: scale(1.1); /* Augmente la taille de 10% sur le survol */
+}
+
+.knowMore{
+        background: -webkit-linear-gradient(135deg, rgb(44, 130, 205), rgb(185, 108, 230));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: transform 0.3s ease-in-out;
+        
+        
+}
+
+.knowMore:hover{
+        transform: scale(1.1); /* Augmente la taille de 10% sur le survol */
+}

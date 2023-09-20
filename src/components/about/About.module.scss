@@ -1,21 +1,39 @@
 @import "../../variables.modules";
 
 .pink {
-  color: $pink;
+      color: $pink;
 }
 
 .green {
-  color: $green;
+      color: $green;
 }
 
 .skills {
-  columns: 1;
-  @media only screen and (min-width: 940px) {
-    columns: 2;
-  }
+      columns: 1;
+      @media only screen and (min-width: 940px) {
+            columns: 2;
+      }
 
-  li {
-    margin: 0;
-    line-height: 1.75;
-  }
+      li {
+            margin: 0;
+            line-height: 1.75;
+      }
+}
+
+/* CTA Button Styles */
+
+.contactBtn {
+      padding: 20px; /* Ajustez la valeur du padding selon vos besoins */
+      text-align: center; /* Centrez le contenu du conteneur */
+      font-size: 17px;
+      background-color: #b5ddff;
+      color: black;
+      border: none;
+      padding: 15px 30px; /* Ajustez les valeurs de padding selon vos besoins */
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out; /* Ajoute une transition d'animation */
+
+      &:hover {
+            background-color: #ffff; /* Couleur différente au survol */
+      }
 }

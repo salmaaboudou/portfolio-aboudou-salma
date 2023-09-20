@@ -4,6 +4,7 @@ import Toggler from "./home/Toggler";
 import {Link, useLocation} from "react-router-dom";
 import {Box} from "@mui/material";
 import {info} from "../info/Info";
+import  logo from "../img/logo.png";
 
 const links = [
     {
@@ -17,7 +18,7 @@ const links = [
         active: 'about'
     },
     {
-        name: info.initials,
+        name: <img className='logo' src={logo} alt="Logo" width={"55px"}  />,
         type: 'initials',
         to: '/',
         active: 'home'
@@ -36,7 +37,7 @@ export default function Navbar({darkMode, handleClick}) {
     return (
         <Box component={'nav'} width={'100%'}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
-                 gap={{xs: '2rem', md: '8rem'}}
+                 gap={{xs: '2rem', md: '10rem'}}
                  textTransform={'lowercase'} fontSize={'1rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
