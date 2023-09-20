@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Style from './Navbar.module.scss';
 import Toggler from "./home/Toggler";
-import {Link, useLocation} from "react-router-dom";
+import { HashRouter as Router, Route, Link, useLocation } from 'react-router-dom';
 import {Box} from "@mui/material";
 import {info} from "../info/Info";
 import  logo from "../img/logo.png";
@@ -55,3 +55,85 @@ export default function Navbar({darkMode, handleClick}) {
         </Box>
     )
 }
+
+// import React, { useState } from 'react';
+// import Style from './Navbar.module.scss';
+// import Toggler from './home/Toggler';
+// import { HashRouter as Router, Route, Link, useLocation } from 'react-router-dom';
+// import { Box } from '@mui/material';
+// import { info } from '../info/Info';
+// import logo from '../img/logo.png';
+
+// const links = [
+//   {
+//     name: 'Home',
+//     to: '/',
+//     active: 'home',
+//   },
+//   {
+//     name: 'About Me',
+//     to: '/about',
+//     active: 'about',
+//   },
+//   {
+//     name: <img className="logo" src={logo} alt="Logo" width="55px" />,
+//     type: 'initials',
+//     to: '/',
+//     active: 'home',
+//   },
+//   {
+//     name: 'Portfolio',
+//     to: '/portfolio',
+//     active: 'portfolio',
+//   },
+// ];
+
+// export default function Navbar({ darkMode, handleClick }) {
+//   const location = useLocation();
+//   const [active, setActive] = useState(
+//     location.pathname === '/' ? 'home' : location.pathname.slice(1)
+//   );
+
+//   return (
+//     <Router>
+//       <Box component="nav" width="100%">
+//         <Box
+//           component="ul"
+//           display="flex"
+//           justifyContent="center"
+//           alignItems="center"
+//           gap={{ xs: '2rem', md: '10rem' }}
+//           textTransform="lowercase"
+//           fontSize="1rem"
+//         >
+//           {links.map((link, index) => (
+//             <Route key={index} exact path={link.to}>
+//               {({ match }) => (
+//                 <Box
+//                   component="li"
+//                   className={
+//                     (match && !link.type && Style.active) ||
+//                     (link.active === active && !link.type && Style.active)
+//                   }
+//                   sx={{ borderImageSource: info.gradient }}
+//                 >
+//                   <Link
+//                     to={link.to}
+//                     onClick={() => setActive(link.active)}
+//                     className={Style.link}
+//                   >
+//                     {!link.type && <p style={{ padding: '0.5rem 0' }}>{link.name}</p>}
+//                     {link.type && <h1>{link.name}</h1>}
+//                   </Link>
+//                 </Box>
+//               )}
+//             </Route>
+//           ))}
+//           <li>
+//             <Toggler darkMode={darkMode} handleClick={handleClick} />
+//           </li>
+//         </Box>
+//       </Box>
+//     </Router>
+//   );
+// }
