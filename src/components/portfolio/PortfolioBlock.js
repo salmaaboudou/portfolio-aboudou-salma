@@ -5,7 +5,7 @@ import Style from "./modal.module.scss";
 import { info } from "../../info/Info";
 
 function PortfolioBlock(props) {
-      const { image, live, source, title, year, mission, projectDescription, technologiesUsed, darkMode } = props;
+      const { image, live, source, title, year, mission, technologiesUsed, clientFeedback, darkMode } = props;
       const [openModal, setOpenModal] = useState(false);
 
       const handleOpenModal = () => {
@@ -29,11 +29,15 @@ function PortfolioBlock(props) {
                         fontSize={"1.5rem"}
                         py={"2rem"}>
                         <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
-                              <IconLink link={live} title={"Live Demo"} icon={"fa fa-safari"} />
+                              <IconLink link={live} title={"Découvrir le projet"} icon={"fa fa-safari"} />
                         </Box>
-                        <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
-                              <IconLink link={source} title={"Source Code"} icon={"fa fa-code"} />
-                        </Box>
+                        
+                        {source && (
+                              <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
+                                    <IconLink link={source} title={"Source Code"} icon={"fa fa-code"} />
+                              </Box>
+                        )}
+
                   </Box>
 
                   <Button className={Style.knowMore} sx={{ borderImageSource: info.gradient }} onClick={handleOpenModal}>
@@ -54,19 +58,30 @@ function PortfolioBlock(props) {
                               }}>
                               <img src={image} alt={title} style={{ width: "100%", marginBottom: "1rem" }} />
                               <h2 className={Style.margin}>{title}</h2>
-                              <p className={Style.margin}>
+                              {year && (
+                                    <p className={Style.margin}>
                                     <strong>Année : </strong> {year}
-                              </p>
-                              <p className={Style.margin}>
-                                    <strong>Mission : </strong>
-                                    {mission}
-                              </p>
-                              <p className={Style.margin}>
-                                    <strong>Projet réalisé : </strong> {projectDescription}
-                              </p>
-                              <p className={Style.margin}>
+                                    </p>
+                              )}
+
+                              {mission && (
+                                    <p className={Style.margin}>
+                                    <strong>Description : </strong> {mission}
+                                    </p>
+                              )}
+
+
+                              {technologiesUsed && (
+                                    <p className={Style.margin}>
                                     <strong>Technologies utilisées : </strong> {technologiesUsed}
-                              </p>
+                                    </p>
+                              )}
+
+                              {clientFeedback && (
+                                    <p className={Style.margin}>
+                                    <strong>Exemple de site client : </strong> {clientFeedback}
+                                    </p>
+                              )}
                               <Grid className={Style.marginTop} container spacing={2}>
                                     <Grid item xs={6}>
                                           <Button
@@ -76,20 +91,23 @@ function PortfolioBlock(props) {
                                                 href={live}
                                                 target="_blank"
                                                 rel="noopener noreferrer">
-                                                Live Demo
+                                                Découvrir le projet
                                           </Button>
                                     </Grid>
-                                    <Grid item xs={6}>
+                                    {source && (
+                                          <Grid item xs={6}>
                                           <Button
                                                 className={Style.button}
                                                 fullWidth
                                                 variant="outlined"
                                                 href={source}
                                                 target="_blank"
-                                                rel="noopener noreferrer">
+                                                rel="noopener noreferrer"
+                                          >
                                                 Source Code
                                           </Button>
-                                    </Grid>
+                                          </Grid>
+                                    )}
                               </Grid>
                               <Button className={Style.closeButton} onClick={handleCloseModal}>
                                     Fermer

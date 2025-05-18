@@ -18,6 +18,9 @@ h2 {
   }
 }
 
+ul[class*="MuiBox-root"] li {
+  font-size: 16px !important;
+}
 
 .hand {
   animation-name: wave;

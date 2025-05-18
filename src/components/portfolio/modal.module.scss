@@ -56,7 +56,7 @@ strong{
 .closeButton{
         margin-top: 2rem !important;
         font-size: 1.1vh !important;
-        background: -webkit-linear-gradient(135deg, rgb(44, 130, 205), rgb(185, 108, 230));
+        background: linear-gradient(135deg, rgb(241, 222, 208), rgb(226, 204, 191));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transition: transform 0.3s ease-in-out;
@@ -71,13 +71,20 @@ strong{
 }
 
 .knowMore{
-        background: -webkit-linear-gradient(135deg, rgb(44, 130, 205), rgb(185, 108, 230));
+        background: linear-gradient(135deg, rgb(241, 222, 208), rgb(226, 204, 191));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transition: transform 0.3s ease-in-out;
+        font-size: 16px !important;
+   
         
         
 }
+
+.knowMore span{
+        font-size: 18px !important;
+}
+
 
 .knowMore:hover{
         transform: scale(1.1); /* Augmente la taille de 10% sur le survol */

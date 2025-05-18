@@ -2,6 +2,7 @@
 
 nav {
   transition: $transition;
+  margin-top: 20px;
 }
 
 .active {
@@ -11,6 +12,7 @@ nav {
 
 li {
   transition: $transition;
+  font-size: 16px; // ou essaye 18px si tu veux plus grand
 
   &:hover {
     transform: translateY(-3px);
@@ -23,9 +25,11 @@ li {
 }
 
 
+
+
 // logo style
 
 .logo{
-  width: 17px;
-  height: 17px;
+  width: 60px !important;
+  height: 25px;
 }

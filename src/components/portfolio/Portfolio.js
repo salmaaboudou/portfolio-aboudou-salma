@@ -29,6 +29,7 @@ export default function Portfolio({ darkMode }) {
                             mission={project.mission}
                             projectDescription={project.projectDescription}
                             technologiesUsed={project.technologiesUsed}
+                            clientFeedback={project.clientFeedback}
                             darkMode={darkMode}
                             onClick={() => handleProjectClick(project)}
                         />

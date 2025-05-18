@@ -35,7 +35,7 @@ export default function Home() {
                               <span style={{ background: info.gradient, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                                     {info.firstName}
                               </span>{" "}
-                              <span className={Style.hand}>💜</span>
+                              <span className={Style.hand}>👋🏾</span>
                         </h1>
                         <h2>{info.position}.</h2>
                         <Box component={"ul"} p={"0.9rem"} sx={{ textAlign: { xs: "center", md: "left" } }}>
