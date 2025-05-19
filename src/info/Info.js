@@ -35,15 +35,15 @@ export const info = {
       miniBio: [
             // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
             {
-                  emoji: "🎓",
+                  emoji: "↪︎",
                   text: "Ancienne étudiante en neurosciences, je me suis ensuite formée au développement web.",
             },
             {
-                  emoji: "🚀",
+                  emoji: "↪︎",
                   text: "Après deux ans d’entrepreneuriat, j’ai décidé de me réorienter vers le test logiciel.",
             },
             {
-                  emoji: "🔍",
+                  emoji: "↪︎",
                   text: "Je suis actuellement à la recherche d’une alternance en tant que QA Analyst.",
             },
             {
@@ -75,7 +75,7 @@ export const info = {
             // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
             // Just change the links so that they lead to your social profiles.
       ],
-      bio: "Après des études en biologie et l’obtention d’une licence spécialisée en neurosciences, j’ai choisi de me réorienter vers un domaine qui m’a toujours attirée : la tech. J’ai donc suivi une formation de Développeuse Intégratrice Web pour acquérir des bases solides en développement. \n\n Pendant ma formation, j’ai commencé à partager mon parcours d’apprentissage sur les réseaux, en donnant des conseils d’organisation et des ressources aux personnes en reconversion comme moi. J’ai même créé un guide pour les développeurs débutants qui a rencontré un vrai succès. C’est ce qui m’a poussée à me lancer dans l’entrepreneuriat : pendant deux ans, j’ai accompagné des petites entreprises dans la création ou la refonte de leur site web, en gérant à la fois le design, l’intégration, le contenu et parfois même la gestion de projet. \n\n Mais aujourd’hui, j’ai envie de revenir à plus de stabilité et de rejoindre une équipe dans laquelle je pourrai apprendre et évoluer. Le métier de testeuse logiciel (QA) m’attire particulièrement, car il combine la rigueur, l’analyse et le souci du détail — des qualités que j’ai cultivées tout au long de mon parcours. \n\n Je suis donc à la recherche d’une alternance (4j/semaine) pour me former concrètement au métier de QA tout en contribuant à la qualité des applications. ",
+      bio: "Titulaire d’une licence en neurosciences, je me suis réorientée vers le développement web en suivant une formation de Développeuse Intégratrice Web.\n\nPendant deux ans, j’ai accompagné des petites entreprises dans la création ou la refonte de leur site, en gérant le design, l’intégration et le contenu.\n\nAujourd’hui, je souhaite me former au métier de testeuse logiciel (QA) en alternance (4j/semaine), un domaine qui allie rigueur, analyse et souci du détail. ",
       skills: {
             proficientWith: ["HTML", "CSS", "Vanilla Javascript", "React", "Wordpress", "Git", "Github", "Figma"],
             exposedTo: ["Node.js", "MongodDB", "API Rest"],
@@ -83,7 +83,7 @@ export const info = {
       formations: [
             {
                   label: "Formation Développeur Web - Openclassrooms (fev 2023 - oct 2023)",
-                  emoji: "👩🏾‍💻",
+                  emoji: "👩🏾",
             },
             {
                   label: "Formation WordPress - Centre Savoir Agir (Sept 2023) ",
