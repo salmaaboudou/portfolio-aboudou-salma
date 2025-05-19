@@ -34,7 +34,7 @@ export default function About() {
                                     </span>
                               ))}
                         </p>
-                        <button className={Style.contactBtn} onClick={sendEmail}>Contactez-moi</button>
+                        <a href="/CV_Salma_Aboudou.pdf" download className={Style.contactBtn}> Télécharger mon CV </a>
                   </>
             );
       }
@@ -63,7 +63,7 @@ export default function About() {
                                     </li>
                               ))}
                         </ul>
-                        <p style={{ color: info.baseColor }}> Exposed To</p>
+                        <p style={{ color: info.baseColor }}></p>
                         <ul className={Style.skills}>
                               {info.skills.exposedTo.map((skill, index) => (
                                     <li key={index}>

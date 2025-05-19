@@ -28,9 +28,12 @@ function PortfolioBlock(props) {
                         alignItems={"center"}
                         fontSize={"1.5rem"}
                         py={"2rem"}>
-                        <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
-                              <IconLink link={live} title={"Découvrir le projet"} icon={"fa fa-safari"} />
-                        </Box>
+                        
+                        {live && (
+                              <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
+                                    <IconLink link={live} title={"Découvrir le projet"} icon={"fa fa-safari"} />
+                              </Box>
+                        )}
                         
                         {source && (
                               <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
@@ -83,6 +86,7 @@ function PortfolioBlock(props) {
                                     </p>
                               )}
                               <Grid className={Style.marginTop} container spacing={2}>
+                                    {live && (
                                     <Grid item xs={6}>
                                           <Button
                                                 className={Style.button}
@@ -90,10 +94,12 @@ function PortfolioBlock(props) {
                                                 variant="outlined"
                                                 href={live}
                                                 target="_blank"
-                                                rel="noopener noreferrer">
-                                                Découvrir le projet
+                                                rel="noopener noreferrer"
+                                          >
+                                                Découvrir le site
                                           </Button>
-                                    </Grid>
+                                          </Grid>
+                                    )}
                                     {source && (
                                           <Grid item xs={6}>
                                           <Button

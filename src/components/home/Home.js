@@ -38,7 +38,7 @@ export default function Home() {
                               <span className={Style.hand}>👋🏾</span>
                         </h1>
                         <h2>{info.position}.</h2>
-                        <Box component={"ul"} p={"0.9rem"} sx={{ textAlign: { xs: "center", md: "left" } }}>
+                        <Box component={"ul"} p={"1.5rem"} sx={{ textAlign: { xs: "center", md: "left" } }}>
                               {info.miniBio.map((bio, index) => (
                                     <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} />
                               ))}

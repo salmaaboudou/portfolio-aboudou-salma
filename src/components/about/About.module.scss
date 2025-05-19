@@ -23,7 +23,9 @@
 /* CTA Button Styles */
 
 .contactBtn {
+      display: inline-block; /* Nécessaire pour que margin fonctionne */
       padding: 20px; /* Ajustez la valeur du padding selon vos besoins */
+      margin: 40px 20px !important;
       text-align: center; /* Centrez le contenu du conteneur */
       font-size: 17px;
       background-color: #b5ddff;
