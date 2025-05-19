@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-aboudou-salma/static/css/main.4d87e7d7.css",
-    "main.js": "/portfolio-aboudou-salma/static/js/main.853fdb39.js",
+    "main.css": "/portfolio-aboudou-salma/static/css/main.17bbd02b.css",
+    "main.js": "/portfolio-aboudou-salma/static/js/main.dedc449d.js",
+    "static/media/self.png": "/portfolio-aboudou-salma/static/media/self.c3b03e5a66669130fc6b.png",
+    "static/media/mock8.png": "/portfolio-aboudou-salma/static/media/mock8.e09deee4e6fd5b012253.png",
     "static/media/mock4.png": "/portfolio-aboudou-salma/static/media/mock4.0de4c325584327b37966.png",
+    "static/media/mock7.png": "/portfolio-aboudou-salma/static/media/mock7.c2f6fb90cb4ba55d3c58.png",
     "static/media/mock3.png": "/portfolio-aboudou-salma/static/media/mock3.49dcce974c067c8ae986.png",
     "static/media/mock2.png": "/portfolio-aboudou-salma/static/media/mock2.9963e1d77aae51828b2a.png",
     "static/media/mock1.png": "/portfolio-aboudou-salma/static/media/mock1.25d34c103d2ff1d24cc6.png",
+    "static/media/mock6.png": "/portfolio-aboudou-salma/static/media/mock6.e7fc341f4e439c8b04d1.png",
     "static/media/mock5.png": "/portfolio-aboudou-salma/static/media/mock5.d9da918f6de065439cc4.png",
-    "static/media/logo.png": "/portfolio-aboudou-salma/static/media/logo.f7aa7a72ad3c910e5f97.png",
-    "static/media/self.png": "/portfolio-aboudou-salma/static/media/self.a131c7be8258e9cde2e4.png",
+    "static/media/logo.png": "/portfolio-aboudou-salma/static/media/logo.64570b083e5499294e4d.png",
     "index.html": "/portfolio-aboudou-salma/index.html",
-    "main.4d87e7d7.css.map": "/portfolio-aboudou-salma/static/css/main.4d87e7d7.css.map",
-    "main.853fdb39.js.map": "/portfolio-aboudou-salma/static/js/main.853fdb39.js.map"
+    "main.17bbd02b.css.map": "/portfolio-aboudou-salma/static/css/main.17bbd02b.css.map",
+    "main.dedc449d.js.map": "/portfolio-aboudou-salma/static/js/main.dedc449d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d87e7d7.css",
-    "static/js/main.853fdb39.js"
+    "static/css/main.17bbd02b.css",
+    "static/js/main.dedc449d.js"
   ]
 }
