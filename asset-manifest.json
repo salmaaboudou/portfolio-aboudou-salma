@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-aboudou-salma/static/css/main.9595ca0a.css",
-    "main.js": "/portfolio-aboudou-salma/static/js/main.3463685b.js",
+    "main.js": "/portfolio-aboudou-salma/static/js/main.80016732.js",
     "static/media/logo.png": "/portfolio-aboudou-salma/static/media/logo.e6bdb74d5dbd3c4b28fc.png",
     "static/media/mock10.png": "/portfolio-aboudou-salma/static/media/mock10.83fb4d2c5abbf134ee8a.png",
     "static/media/mock8.png": "/portfolio-aboudou-salma/static/media/mock8.e09deee4e6fd5b012253.png",
     "static/media/self.png": "/portfolio-aboudou-salma/static/media/self.54e52cdc49624d598c9d.png",
     "static/media/mock4.png": "/portfolio-aboudou-salma/static/media/mock4.0de4c325584327b37966.png",
+    "static/media/mock11.png": "/portfolio-aboudou-salma/static/media/mock11.667751998d2b818980b2.png",
     "static/media/mock7.png": "/portfolio-aboudou-salma/static/media/mock7.c2f6fb90cb4ba55d3c58.png",
     "static/media/mock3.png": "/portfolio-aboudou-salma/static/media/mock3.49dcce974c067c8ae986.png",
     "static/media/mock9.png": "/portfolio-aboudou-salma/static/media/mock9.68b5608277100f28c32c.png",
@@ -16,10 +17,10 @@
     "static/media/mock5.png": "/portfolio-aboudou-salma/static/media/mock5.d9da918f6de065439cc4.png",
     "index.html": "/portfolio-aboudou-salma/index.html",
     "main.9595ca0a.css.map": "/portfolio-aboudou-salma/static/css/main.9595ca0a.css.map",
-    "main.3463685b.js.map": "/portfolio-aboudou-salma/static/js/main.3463685b.js.map"
+    "main.80016732.js.map": "/portfolio-aboudou-salma/static/js/main.80016732.js.map"
   },
   "entrypoints": [
     "static/css/main.9595ca0a.css",
-    "static/js/main.3463685b.js"
+    "static/js/main.80016732.js"
   ]
 }
