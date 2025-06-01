@@ -9,6 +9,7 @@ import mock7 from "../img/mock7.png";
 import mock8 from "../img/mock8.png";
 import mock9 from "../img/mock9.png";
 import mock10 from "../img/mock10.png";
+import mock11 from "../img/mock11.png";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -101,6 +102,39 @@ export const info = {
       portfolio: [
             // This is where your portfolio projects will be detailed
             {
+                  title: "Shop ton site",
+                  live: "https://shoptonsite.com/",
+                  source: null,
+                  image: mock7,
+                  year: null,
+                  mission: "Lancement de ma propre marque digitale dédiée à la vente de modèles de sites web conçus sur Canva. J’ai imaginé le concept, créé un premier template, réalisé le tutoriel vidéo et développé le site e-commerce sous WordPress. J’ai également mis en place une stratégie de contenu sur TikTok & Instagram pour faire connaître le projet (11K abonnés).",
+                  projectDescription: " Création de la marque Shop ton site, dédiée à la vente de modèles de sites web Canva.",
+                  technologiesUsed: "WordPress pour le site et Canva pour les visuels",
+                  clientFeedback : null,
+            },
+            {
+                  title: "Kit d'organisation pour les développeurs web junior (Template Notion)",
+                  live: "https://salmacodes.gumroad.com/l/dev-junior-organisateur",
+                  source: null,
+                  image: mock11,
+                  year: null,
+                  mission: "Créé durant ma formation de développeuse web, ce template Notion permet aux développeurs juniors de s’organiser efficacement. Il comprend un guide écrit expliquant comment l’utiliser, ainsi qu’une base de données pour suivre ses projets et centraliser les ressources utiles.",
+                  projectDescription: "",
+                  technologiesUsed: "Notion & Gumroad pour la page de vente",
+                  clientFeedback : null,
+            },
+            {
+                  title: "Papershock – Refonte",
+                  live: "https://papershock.com/",
+                  source: null,
+                  image: mock8,
+                  year: null,
+                  mission: "Cliente freelance – Refonte complète du site d’une marque de fiches éducatives. Le site initial, créé via le builder Ionos, limitait fortement la personnalisation. J’ai entièrement repensé le design, puis intégré les éléments à l’aide de HTML, CSS et JavaScript afin de contourner les contraintes techniques de l’éditeur.",
+                  projectDescription: "",
+                  technologiesUsed: "Builder Ionos, HTML, CSS, JavaScript, Canva (visuels)",
+                  clientFeedback : null,
+            },
+            {
                   title: "Mon vieux grimoire – Backend Node.js (API + MongoDB)",
                   live: null,
                   source: "https://github.com/salmaaboudou/mon-vieux-grimoire",
@@ -165,28 +199,6 @@ export const info = {
                   projectDescription: "Page d'accueil de l'agence de voyage Booki.",
                   technologiesUsed: "HTML, CSS",
                   clientFeedback : null
-            },
-            {
-                  title: "Shop ton site – Projet WordPress + Canva (freelance)",
-                  live: "https://shoptonsite.com/",
-                  source: null,
-                  image: mock7,
-                  year: null,
-                  mission: "Lancement de ma propre marque digitale dédiée à la vente de modèles de sites web conçus sur Canva. J’ai imaginé le concept, créé un premier template, réalisé le tutoriel vidéo et développé le site e-commerce sous WordPress. J’ai également mis en place une stratégie de contenu sur TikTok & Instagram pour faire connaître le projet (11K abonnés).",
-                  projectDescription: " Création de la marque Shop ton site, dédiée à la vente de modèles de sites web Canva.",
-                  technologiesUsed: "WordPress pour le site et Canva pour les visuels",
-                  clientFeedback : null,
-            },
-            {
-                  title: "Papershock – Refonte no-code (freelance)",
-                  live: "https://papershock.com/",
-                  source: null,
-                  image: mock8,
-                  year: null,
-                  mission: "Cliente freelance – Refonte complète du site d’une marque de fiches éducatives. Le site initial, créé via le builder Ionos, limitait fortement la personnalisation. J’ai entièrement repensé le design, puis intégré les éléments à l’aide de HTML, CSS et JavaScript afin de contourner les contraintes techniques de l’éditeur.",
-                  projectDescription: "",
-                  technologiesUsed: "Builder Ionos, HTML, CSS, JavaScript, Canva (visuels)",
-                  clientFeedback : null,
-            },
+            }
       ],
 };
